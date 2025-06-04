@@ -1,6 +1,7 @@
+import { Head } from "./components/Head"
+
 export const App=()=>{
   return(
-  <div>
-    hola mundo
-  </div>)
+    <Head/>
+  )
 }
