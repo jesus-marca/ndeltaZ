@@ -1,7 +1,11 @@
+import { Image } from "../../components/Image"
 
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Image text='aid'/>
+      Home
+    </div>
   )
 }

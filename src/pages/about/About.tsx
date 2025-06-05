@@ -1,7 +1,12 @@
+import { Image } from "../../components/Image"
 
 
 export const About = () => {
   return (
-    <div>About</div>
+    <div>About
+
+      <Image text='asi'/>
+
+    </div>
   )
 }

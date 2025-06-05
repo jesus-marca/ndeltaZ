@@ -1,9 +1,12 @@
-import images from '../assets/send.jpeg'
-import "./Image.css"
-export const Image = () => {
+
+interface Props{
+  text:string
+}
+import "./Image.scss"
+export const Image = ({text}:Props) => {
   return (
     <div className='containerImage'>
-        <img src={images} alt="" className='imagesPrincipal' />
+        <img src={`../../src/assets/${text}.png`} alt="" className='imagesPrincipal' />
     </div>
   )
 }
